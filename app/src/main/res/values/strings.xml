@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Guidrr</string>
+    <string name="access_token">pk.eyJ1IjoibnVsbGlmaWVkZ2VlayIsImEiOiJjam0wZG5ucm0wN3hzM3Bxbms4OG54cWM0In0.V-MHginMG2u9CE8WCS8mJg</string>
+    <string name="start_navigating">Start Navigating</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <com.mapbox.mapboxsdk.maps.MapView
+       android:id="@+id/mapView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       mapbox:mapbox_cameraTargetLat="10.31672"
+       mapbox:mapbox_cameraTargetLng="123.89071"
+       mapbox:mapbox_cameraZoom="11"
+       mapbox:mapbox_styleUrl="mapbox://styles/mapbox/streets-v10" />
+
+   <Button
+       android:id="@+id/startButton"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="24dp"
+       android:layout_marginEnd="24dp"
+       android:layout_marginStart="24dp"
+       android:enabled="false"
+       android:text="@string/start_navigating"
+       android:textColor="@color/mapboxGrayLight"
+       mapbox:layout_constraintBottom_toBottomOf="parent"
+       mapbox:layout_constraintEnd_toEndOf="parent"
+       mapbox:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
